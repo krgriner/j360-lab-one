@@ -1,0 +1,235 @@
+/* font-family: 'Shadows Into Light', cursive; */
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+* { font-family: 'Source Sans Pro', sans-serif; }
+* { margin: 0; padding: 0 }
+
+/*----------------------------- header ------------------------------*/
+
+header h1 {
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	font-size: 5em;
+	margin-bottom: 20px;
+	padding-top: 45px;
+}
+
+header p {
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
+header {
+	text-align: center;
+	padding-bottom: 40px;
+	background-color: #65C2EA;
+	background-image: url("../images/vonsigclear.png");
+	background-repeat: repeat;
+	background-position: 10% 50%;
+	border-bottom: 10px solid #898989;
+	position: relative;
+}
+
+/*----------------------------- page wrap ----------------------------*/
+
+#page-wrap {
+	text-align: center;
+	width: 700px;
+	margin: 50px auto 0px auto;
+	color: #898989;
+	text-align: left;
+}
+
+#page-wrap p {
+	margin-bottom: 20px;
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+
+h2 {
+	text-align: center;
+	padding-bottom: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	word-spacing: 0.2em;
+	margin-bottom: 20px;
+}
+
+#index-page-wrap {
+	text-align: center;
+	width: 500px;
+	margin: 50px auto 0px auto;
+	color: #898989;
+	text-align: left;
+}
+
+#index-page-wrap p {
+	margin-bottom: 20px;
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+
+/*----------------------------- nav ------------------------------------*/
+
+nav {
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+}
+
+nav ul li {
+	display: inline;
+	padding: 0px 25px 0 25px;
+	text-transform: uppercase;
+	line-height: 2em;
+	border-right: 1px solid #65C2EA;
+}
+
+nav ul li:last-child {
+	border-right: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #65C2EA;
+}
+
+a:hover {
+	color: black;
+}
+
+
+/*---------------------------------- images -------------------------*/
+
+#image-wrap {
+	width: 1025px;
+	margin: 50px auto 0px auto;
+	display: block;
+}
+
+.book {
+	border: none;
+	margin-right: -125px;
+	-moz-box-shadow: -5px 5px 15px #303030;
+	-webkit-box-shadow: -5px 5px 15px #303030;
+	box-shadow: -5px 5px 15px #303030;
+}
+.book:hover {
+  -webkit-transform: rotate(-5deg);
+     -moz-transform: rotate(-5deg);
+       -o-transform: rotate(-5deg);
+      -ms-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+}
+
+/*-------------------------------- books -------------------------*/
+
+h3 {
+	text-transform: uppercase;
+	padding: 30px 0 7px 0;
+	letter-spacing: 0.1em;
+	word-spacing: 0.1em;
+	font-weight: 400;
+}
+
+h5 {
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	font-weight: 300;
+}
+
+.rate {
+	float: left;
+	padding-right: 5px;
+}
+
+/*-------------------------------- Source -------------------------*/
+p.source {
+	padding-top: 20px;
+	font-size: .8em;
+}
+
+p.source a {
+	text-decoration: none;
+	color: #65C2EA;
+}
+
+p.source a:hover {
+	color: black;
+}
+
+/*-------------------------------- Footer -------------------------*/
+
+footer {
+	text-align: center;
+	background-color: #65C2EA;
+	background-image: url("../images/vonsigclear.png");
+	background-repeat: repeat;
+	background-position: 10% 50%;
+	border-top: 10px solid #898989;
+	margin: 40px auto 0 auto;
+	clear: both;
+}
+
+footer p {
+	font-size: 1.2em;
+	font-weight: 300;
+	color: black;
+	line-height: 3em;
+	
+}
+
+/*---------------------------- Biography -----------------------*/
+ 
+figure.bio {
+	float: left;
+	margin: 20px;
+	width: 236px;
+}
+
+figure.bio figcaption {
+	font-size: .5em;
+}
+
+/*---------------------------- Timeline -----------------------*/
+
+li.year {
+	font-size: 2em;
+	list-style-type: none;
+}
+
+li.event {
+	list-style-type: none;
+	margin-left: 35px;
+	padding: 10px 0px 10px 30px;
+	border-left: 1px solid #898989;
+}
+
+hr {
+	margin-left: 35px;
+	border-left: none;
+	width: 20px;
+}
+
+/*---------------------------- Facts -----------------------*/
+
+ul.list {
+	list-style-image: url("../images/bullet.png");
+}
+
+ul.list li {
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+ul.list li a {
+	text-decoration: none;
+	color: #65C2EA;
+}
+
+ul.list li a:hover {
+	color: black;
+}
